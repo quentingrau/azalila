@@ -19,7 +19,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/azalila/">
       <Nav />
       <Switch>
         <Route exact path="/">
