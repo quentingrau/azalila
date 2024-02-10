@@ -15,7 +15,7 @@ const Formules = () => {
         </div>
         <img src={FormulesCover} className="w-full max-h-[70vh] object-cover"/>
         <div className="grid grid-flow-row lg:grid-flow-col justify-center gap-20 p-6 xl:p-12 h-full">
-          <div className="shadow">
+          <div className="shadow transition duration-300 transform scale-100 hover:scale-[1.01]">
             <img src={Online} className="w-full object-cover" />
             <div className="flex flex-col items-center p-12 gap-6">
               <p className="text-2xl">Formule E-Wedding</p>
@@ -62,7 +62,7 @@ const Formules = () => {
               </div>
             </div>
           </div>
-          <div className="shadow">
+          <div className="shadow transition duration-300 transform scale-100 hover:scale-[1.01]">
             <img src={WP} className="w-full object-cover"/>
             <div className="flex flex-col items-center p-12 gap-6">
               <p className="text-2xl">Formule Wedding Planner</p>
