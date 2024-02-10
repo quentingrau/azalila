@@ -10,7 +10,7 @@ const Automne = () => {
   return (
     <React.Fragment>
       <img src={AutomneImage} className="w-full max-h-[70vh] object-cover" />
-      <main>
+      <main className="font-serif">
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <div className="py-6 sm:px-0">
             <div className="rounded-lg text-[#15150A] mb-8">

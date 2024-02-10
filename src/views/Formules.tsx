@@ -7,7 +7,7 @@ import Online from '../assets/online.jpeg';
 const Formules = () => {
   return (
     <React.Fragment>
-      <main>
+      <main className="font-serif">
         <div className="max-w-[80%] mx-auto py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-6 sm:px-0">
             <p className="text-4xl">Nos formules</p>

@@ -86,7 +86,7 @@ const Realisations = () => {
 
   return (
     <React.Fragment>
-      <main>
+      <main className="font-serif">
         <div className="max-w-[85%] mx-auto py-6 sm:px-6 lg:px-8 font-serif">
           <div className="px-4 py-6 sm:px-0">
             <p className="text-4xl mb-12">Thèmes & Saisons</p>
